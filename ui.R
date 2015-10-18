@@ -18,10 +18,10 @@ shinyUI(pageWithSidebar(
 #    numericInput('id1', 'Numeric input, label id1', 0, min=0, max=10, step=1),
     sliderInput('obsval', 'Observed value for source prediction', 
                 value=40, min=1, max=100, step=1),
-    h5('population mixture'),
-    h5('mu1 = 10  sd1 = 1.6  43%'),
-    h5('mu2 = 20  sd1 = 3.2  36%'),
-    h5('mu3 = 35  sd1 = 5.5  21%')
+    h5('simulation mixture'),
+    h5('1/lambda1 = 10  runs = 1000  43%'),
+    h5('1/lambda2 = 20  runs =  830  36%'),
+    h5('1/lambda3 = 35  runs =  500  21%')
   ),
   
   # Show a plot of the generated distribution
